@@ -7,7 +7,6 @@ Bu, React'in ileri düzey kavramlarını ve özelliklerini (durum yönetimi, yö
 - **Dinamik Yönlendirme**: Sayfalar arasında sorunsuz gezinme.
 - **Durum Yönetimi**: Uygulama durumunu verimli bir şekilde yönetme.
 - **Yeniden Kullanılabilir Bileşenler**: Modüler ve yeniden kullanılabilir UI bileşenleri.
-- **Duyarlı Tasarım**: Farklı ekran boyutları için optimize edilmiştir.
 
 ## Kurulum
 
@@ -26,19 +25,21 @@ Bu, React'in ileri düzey kavramlarını ve özelliklerini (durum yönetimi, yö
 
 ## Kullanım
 
-Geliştirme sunucusunu başlatın:
+Backend sunucusunu başlatın:
 
 ```bash
-npm start
+npm run start
+```
+
+Uygulama `http://localhost:5000` adresinde kullanılabilir olacaktır.
+
+Client projesini başlatın:
+
+```bash
+npm run dev
 ```
 
 Uygulama `http://localhost:3000` adresinde kullanılabilir olacaktır.
-
-## Komutlar
-
-- `npm start`: Geliştirme sunucusunu başlatır.
-- `npm run build`: Projeyi üretim için derler.
-- `npm test`: Testleri çalıştırır.
 
 ## Kullanılan Teknolojiler
 
@@ -46,21 +47,3 @@ Uygulama `http://localhost:3000` adresinde kullanılabilir olacaktır.
 - **React Router**: Yönlendirme için.
 - **CSS Modülleri**: Scoped stil yönetimi.
 - **Node.js**: Backend çalışma zamanı.
-
-## Klasör Yapısı
-
-```
-course-app/
-├── public/         # Statik varlıklar
-├── src/
-│   ├── components/ # Yeniden kullanılabilir bileşenler
-│   ├── pages/      # Sayfa bileşenleri
-│   ├── styles/     # CSS dosyaları
-│   └── App.js      # Ana uygulama bileşeni
-├── package.json    # Proje meta verileri
-└── README.md       # Proje dokümantasyonu
-```
-
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
